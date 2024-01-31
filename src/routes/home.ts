@@ -4,7 +4,9 @@ import express, { Request, Response } from 'express';
 const router = express.Router();
 
 router.get('/', (req: Request, res: Response) => {
-  res.send('Rota da Página Inicial');
+  res.render("_home.twig", {
+    title : "Home Page"
+  });
 });
 
 export default router;

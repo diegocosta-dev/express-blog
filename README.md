@@ -1,11 +1,12 @@
-# My Node.js Project with TypeScript and Express
+# Project with Express, TypeScript, Mysql, Twig, and Tailwindcss.
 
-Welcome to my Node.js project using TypeScript and Express. This is a simple example to start building your app.
+This is a simple example to start building your blog.
 
 ## Requirements
 
 - Node.js
 - npm
+- Mysql
 
 ## Installation
 

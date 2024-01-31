@@ -4,7 +4,7 @@ import express, { Request, Response } from 'express';
 const router = express.Router();
 
 router.get('/', (req: Request, res: Response) => {
-  res.render("_home.twig", {
+  res.render("_home", {
     title : "Home Page"
   });
 });
